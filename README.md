@@ -17,4 +17,4 @@
 1. **下载脚本并赋予执行权限**
 
    ```bash
-   wget --no-check-certificate -qO random_install.sh 'https://raw.githubusercontent.com/ridaiqianhe/ddos/main/random_install.sh' && chmod +x random_install.sh && ./random_install.sh
+   wget --no-check-certificate -qO random_install.sh 'https://raw.githubusercontent.com/ridaiqianhe/dd/main/random_install.sh' && chmod +x random_install.sh && ./random_install.sh
