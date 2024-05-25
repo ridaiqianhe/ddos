@@ -34,9 +34,6 @@ echo "Generated Port: $PORT"
 echo "IPv4 Address: $v4"
 echo "IPv6 Address: $v6"
 
-# 配置 SSH
-echo "Port $PORT" >> /etc/ssh/sshd_config
-systemctl restart sshd
-
 echo "SSH configuration updated. You can now connect using:"
-echo "ssh root@<your_server_ip> -p $PORT"
+echo "ssh root@$v4 -p $PORT"
+echo "请手动执行：reboot"
