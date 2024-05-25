@@ -1,6 +1,6 @@
 # DD系统脚本
 
-在原大佬的基础上，我们增加了随机端口和随机密码功能，使系统更加安全。本脚本默认安装 Debian 12 系统。
+在原大佬(leitbogioro)的基础上，我们增加了随机端口和随机密码功能，使系统更加安全。本脚本默认安装 Debian 12 系统。
 
 ## 功能介绍
 
@@ -17,4 +17,4 @@
 1. **下载脚本并赋予执行权限**
 
    ```bash
-   wget --no-check-certificate -qO random_install.sh 'https://path_to_your_modified_script/random_install.sh' && chmod +x random_install.sh && ./random_install.sh
+   wget --no-check-certificate -qO random_install.sh 'https://raw.githubusercontent.com/ridaiqianhe/ddos/main/random_install.sh' && chmod +x random_install.sh && ./random_install.sh
