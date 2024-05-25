@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 生成随机密码（12个字符，包含大小写字母和数字）
-PASSWORD=$(< /dev/urandom tr -dc A-Za-z0-9 | head -c12)
+PASSWORD=$(< /dev/urandom tr -dc A-Za-z0-9 | head -c24)
 
 # 生成随机端口（1024到65535之间）
 PORT=$((RANDOM%64512+1024))
